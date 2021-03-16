@@ -39,6 +39,7 @@ ng g s <service-name-here>
 - Modules
 	- breaks app in small parts for ease of maintainability.
 - Templates
+	- Dynamic HTML
 - Directives
 - Services
 
