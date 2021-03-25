@@ -11,13 +11,25 @@ import { Component } from "@angular/core";
                 {{ vegitable }}
             </li>
         </ul>
+        <!--Proprty binding-->
+        <input [disabled]="isDisabled" type="text" value="Web Refine">
+        <!--Event binding-->
+        <button (click) = "buttonClick()"> Evend Binding </button>
     `
 })
 export class VegitableComponent {
+    // this property is binded to the disabled attribute in above template
+    public isDisabled = true;
     title = "Vegetables Title";
+    time = 0;
 
     getTitle() {
         return "Title:" + this.title;
+    }
+
+    buttonClick() {
+        console.log(this.time , "Button is clicked!");
+        ++this.time;
     }
 
     vegs = ["Bringle", "Potato", "Ladiesfinger", "Tomato", "Lemon"];
