@@ -2,8 +2,6 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "vegetables",
-    // template: "<h2> {{ title }} </h2>" // or you can put method
-    // template: "<h2>{{ getTitle() }}</h2>" // or you can loop over
     template: `
         <h2> {{ title }} </h2>
         <ul>
