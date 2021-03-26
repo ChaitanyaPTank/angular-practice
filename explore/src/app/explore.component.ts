@@ -17,7 +17,7 @@ import { Component } from "@angular/core";
 })
 export class VegitableComponent {
     // this property is binded to the disabled attribute in above template
-    public isDisabled = true;
+    public isDisabled = false;
     title = "Vegetables Title";
     time = 0;
 

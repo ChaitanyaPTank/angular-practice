@@ -1,13 +1,11 @@
 # angular-practice
-
 - This repository reflects my practice work for angular-js.
 
-# Note:
-- This is my own understanding on angular, this will be changed with time and my own
-progress with angular.
+# Resources
+[angular.io](www.angular.io)
+[Codevolution](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
 
 ## Notes
-
 - install angular cli
 ```
 npm i -g @angular/cli
@@ -34,7 +32,6 @@ ng g s <service-name-here>
 ```
 
 ## Building blocks of angular app
-
 - Components
 	- encapulates:
 		- Data
@@ -48,7 +45,6 @@ ng g s <service-name-here>
 - Services
 
 ## Typescript
-
 ```
 let variable = 1; // type of variable is number only.
 variale = "String" // not valid
@@ -63,3 +59,7 @@ let a: number; // assigns numbers to a only;
 	1. HTML Templates -> View part.
 	2. Class -> Logic that controls the view part of that component
 - Services are the class that controls the logic of our app.
+
+# Note:
+- This is my own understanding on angular, this will be changed with time and my own
+progress with angular.
